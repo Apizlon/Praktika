@@ -33,7 +33,7 @@ void Triangle::hide(Graphics^ g) {
 
 void Triangle::replace(int newx, int newy, Graphics^ g) {
     if (newy + a / 2 > 560 || newx + (x2 - x) > 683 || newy - a / 2 < 0) {
-        throw gcnew System::Exception("Фигура выходит за границу окна");
+        throw gcnew System::Exception("Перемещение за границу окна");
     }
     else {
         x2 = newx + (x2 - x);

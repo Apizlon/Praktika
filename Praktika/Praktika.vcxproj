@@ -146,6 +146,7 @@
     <ClCompile Include="AssemblyInfo.cpp" />
     <ClCompile Include="circle.cpp" />
     <ClCompile Include="compfigure.cpp" />
+    <ClCompile Include="container.cpp" />
     <ClCompile Include="CppCLR_WinFormsProject.cpp" />
     <ClCompile Include="Form1.cpp" />
     <ClCompile Include="pch.cpp">
